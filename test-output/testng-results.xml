@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-22T08:01:19 IST" name="Default suite" finished-at="2024-11-22T08:01:35 IST" duration-ms="16045">
+    <groups>
+    </groups>
+    <test started-at="2024-11-22T08:01:19 IST" name="Default test" finished-at="2024-11-22T08:01:35 IST" duration-ms="16045">
+      <class name="Action.Actions">
+        <test-method is-config="true" signature="extentinitialize()[pri:0, instance:Action.Actions@1ff4931d]" started-at="2024-11-22T08:01:19 IST" name="extentinitialize" finished-at="2024-11-22T08:01:19 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentinitialize -->
+        <test-method is-config="true" signature="initiatedriverinstance(org.testng.ITestContext)[pri:0, instance:Action.Actions@1ff4931d]" started-at="2024-11-22T08:01:19 IST" name="initiatedriverinstance" finished-at="2024-11-22T08:01:25 IST" duration-ms="6089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3d3a1903]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiatedriverinstance -->
+        <test-method signature="validate_transactionpage()[pri:0, instance:Action.Actions@1ff4931d]" started-at="2024-11-22T08:01:25 IST" name="validate_transactionpage" finished-at="2024-11-22T08:01:34 IST" duration-ms="9293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_transactionpage -->
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Action.Actions@1ff4931d]" started-at="2024-11-22T08:01:34 IST" name="checkstatus" finished-at="2024-11-22T08:01:34 IST" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Action.Actions.validate_transactionpage() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=validate_transactionpage status=SUCCESS method=Actions.validate_transactionpage()[pri:0, instance:Action.Actions@1ff4931d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method is-config="true" signature="closedriverinstance()[pri:0, instance:Action.Actions@1ff4931d]" started-at="2024-11-22T08:01:34 IST" name="closedriverinstance" finished-at="2024-11-22T08:01:35 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriverinstance -->
+        <test-method is-config="true" signature="flush_report()[pri:0, instance:Action.Actions@1ff4931d]" started-at="2024-11-22T08:01:35 IST" name="flush_report" finished-at="2024-11-22T08:01:36 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush_report -->
+      </class> <!-- Action.Actions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
